@@ -1,0 +1,93 @@
+
+:root {
+  --colorPrimaire: #9356dc;
+  --colorSecondaire: #ff79da;
+  --colorTertiaire: #99E2D0;
+  --color4: rgba(128, 128, 128, 0.912);    
+}
+
+* { 
+  font-family: "Roboto";
+  list-style-type: none;
+  margin: 0;
+
+}
+
+
+body {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+header {
+  text-align: center;
+}
+
+.flexCentreColumn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.logo img {
+  margin: 20px 0 5px 0;
+  width: 160px;
+}
+
+.shearchBarre, input {
+  width: 100%;
+  margin: 0;
+  height: 50px;
+  border-radius: 0;
+  border: none;
+  border-top: solid 1px rgba(128, 128, 128, 0.386);
+  background: rgba(199, 197, 197, 0.285);
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+  color: var(--color4);
+ 
+}
+
+Form {
+  text-align: center;
+  background: rgba(128, 128, 128, 0.1);  
+}
+
+.titreForm {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 40px 50px 15px 50px;
+}
+
+.pForm {
+ font-size: 18px;
+ color: var(--color4); 
+}
+
+.buttonSubmit input {
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: linear-gradient(#ff79da, #9356dc);
+  color: #fff;
+  box-shadow: 2px 2px 5px var(--color4);
+}
+
+#iconLocation {
+  position: absolute;
+  top: 75px;
+  left: 110px; 
+}
+
+.fonctionnement {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=style.css.map */
