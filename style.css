@@ -88,6 +88,66 @@ Form {
 }
 
 .fonctionnement {
-  margin-top: 40px;
+  margin: 40px 20px;
+  
 }
+
+.titreSection, h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.blockEtapes {
+  padding-left: 0;
+  /* background: #99E2D0; */
+
+}
+
+.etapesFonctionnement {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  /* width: 80%; */
+
+  
+  /* justify-content: center; */
+
+}
+
+.etapeNumber {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  background: var(--colorPrimaire);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.iconEtape {
+  margin: 0 25px;
+  font-size: 20px;
+  color: var(--color4);
+  
+}
+
+.backgroundEtape {
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.258);
+  border-radius: 20px;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  border-left: solid 10px #fff;
+  margin-left: 12px;
+  
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */
