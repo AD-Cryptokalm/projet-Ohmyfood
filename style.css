@@ -10,6 +10,8 @@
   font-family: "Roboto";
   list-style-type: none;
   margin: 0;
+  text-decoration-line: none;
+  color: black;
 
 }
 
@@ -127,6 +129,10 @@ Form {
   position: absolute;
 }
 
+.nameEtape {
+  font-weight: bold;
+}
+
 .iconEtape {
   margin: 0 25px;
   font-size: 20px;
@@ -149,25 +155,25 @@ Form {
 
 .blockRestaurants {
   margin: 0;
-  height: 600px;
+  height: auto;
   background: rgba(199, 197, 197, 0.285);
   padding: 60px 20px;
 }
 
 .cardRestaurants {
+  
   width: 100%;
   height: 260px;
   margin-bottom: 20px;
-  background: #fff;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.258);
 }
 
-.imgCard, img {
+.imgCard img {
   width: 100%;
-  height: 190px; 
+  height: 180px; 
   object-fit: cover;
-  border-radius: 25px 25px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 .bodyCard {
@@ -176,11 +182,23 @@ Form {
   align-items: center;
   padding: 0 20px;
   padding-top: 10px;
-  font-size: 18px
+ 
 }
 
 .titreCard {
   font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.iconCard {
+  font-size: 25px;
+  
+  width: 25px;
+}
+
+.quartierCard {
+  font-weight: 300;
 }
 
 
