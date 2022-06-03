@@ -191,17 +191,16 @@ Form {
   font-size: 18px;
 }
 
-.iconCard {
-  font-size: 25px;
-  
-  width: 25px;
-}
-
 .quartierCard {
   font-weight: 300;
 }
 
-
+.backgGardian {
+  font-size: 25px;
+  /* color: transparent; */
+  background: linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+}
 
 
 /*# sourceMappingURL=style.css.map */
