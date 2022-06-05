@@ -12,7 +12,6 @@
   margin: 0;
   text-decoration-line: none;
   color: black;
-
 }
 
 
@@ -20,7 +19,6 @@ body {
   width: 100%;
   margin: 0;
   box-sizing: border-box;
-  
 }
 
 header {
@@ -32,14 +30,14 @@ header {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
 }
 
+/* Header */
 .logo img {
   margin: 20px 0 5px 0;
   width: 160px;
 }
-
+/* Barre de recherche */
 .shearchBarre, input {
   width: 100%;
   margin: 0;
@@ -52,9 +50,9 @@ header {
   text-align: center;
   font-size: 16px;
   color: var(--color4);
- 
 }
 
+/* Formulaire */
 Form {
   text-align: center;
   background: rgba(128, 128, 128, 0.1);  
@@ -81,6 +79,7 @@ Form {
   background: linear-gradient(#ff79da, #9356dc);
   color: #fff;
   box-shadow: 2px 2px 5px var(--color4);
+  cursor: pointer;
 }
 
 #iconLocation {
@@ -89,9 +88,9 @@ Form {
   left: 110px; 
 }
 
+/* Block Fonctionnement */
 .fonctionnement {
   margin: 40px 20px;
-  
 }
 
 .titreSection, h3 {
@@ -101,8 +100,6 @@ Form {
 
 .blockEtapes {
   padding-left: 0;
-  /* background: #99E2D0; */
-
 }
 
 .etapesFonctionnement {
@@ -110,11 +107,7 @@ Form {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
-  /* width: 80%; */
-
-  
-  /* justify-content: center; */
-
+  cursor: pointer;
 }
 
 .etapeNumber {
@@ -134,10 +127,13 @@ Form {
 }
 
 .iconEtape {
-  margin: 0 25px;
+  margin: 0 20px 0 30px;
   font-size: 20px;
-  color: var(--color4);
-  
+  color: var(--color4); 
+}
+
+.backgroundEtape:hover i {
+  color: var(--colorPrimaire);
 }
 
 .backgroundEtape {
@@ -148,11 +144,14 @@ Form {
   background: #fff;
   height: 100%;
   width: 100%;
-  border-left: solid 10px #fff;
-  margin-left: 12px;
-  
+  margin-left: 12px;  
 }
 
+.backgroundEtape:hover {
+  background: rgb(247, 234, 247);
+}
+
+/* Block restaurants  */
 .blockRestaurants {
   margin: 0;
   height: auto;
@@ -200,17 +199,18 @@ Form {
   font-size: 25px;
   cursor: pointer;
   position: relative;
-  left: 30px;
+  left: 29px;
   background: white;
 }
 
 .backgroundIcon {
-  font-size: 26px;
-  width: 26px;
+  font-size: 25px;
+  width: 25px;
   color: transparent;
   background-image: linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   cursor: pointer;
+  
 }
 
 .iconCard:hover {
@@ -221,6 +221,59 @@ Form {
   display: none;
 }
 
+/* Footer  */
+footer {
+  background: rgb(41, 41, 41);
+  padding: 20px;
+}
 
+.titreFooter h3 {
+  font-family: "Shrikhand";
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
 
+.liensFooter a {
+  display: flex;
+}
+
+.iconRestaurant {
+  margin-right: 15px;
+}
+
+.iconPartenaire {
+  margin-right: 10px;
+}
+
+.liensColor {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.nouveau {
+  background-color: rgb(167, 243, 248);
+  color: rgb(17, 168, 85);
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 68px;
+  position: absolute;
+  top: 940px;
+  right: 40px;
+}
+
+.nouveau2 {
+  background-color: rgb(167, 243, 248);
+  color: rgb(17, 168, 85);
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 68px;
+  position: absolute;
+  top: 1220px;
+  right: 40px;
+}
+  
 /*# sourceMappingURL=style.css.map */
+
