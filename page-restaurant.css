@@ -5,7 +5,7 @@
     --color4: rgba(128, 128, 128, 0.912);    
   }
 
-.iconPageResto {
+.iconRetourAccueil {
     top: 20px;
     left: 40px;
     position: absolute;
@@ -22,6 +22,8 @@
 
 .imgPageResto img {
     width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .headerMenu {
@@ -62,7 +64,8 @@
 }
 
 .blockInfoCard {
-    flex-grow: 2;  
+    flex-grow: 2;
+    
 }
 
 .titreMenu {
@@ -71,7 +74,9 @@
 
 .namePlat {
     font-weight: 700;
+    font-size: 18px;
     margin-bottom: 5px;
+ 
 }
 
 .bodyCardMenu {
@@ -82,6 +87,12 @@
 
 .ingrédients, .prix {
     font-size: 14px;
+    
+}
+
+.prix {
+    display: flex;
+    align-items: flex-end;
 }
 
 .validationChoix {
