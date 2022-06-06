@@ -1,0 +1,120 @@
+:root {
+    --colorPrimaire: #9356dc;
+    --colorSecondaire: #ff79da;
+    --colorTertiaire: #99E2D0;
+    --color4: rgba(128, 128, 128, 0.912);    
+  }
+
+.iconPageResto {
+    top: 20px;
+    left: 40px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.menu {
+    padding: 30px 20px;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+    top: -40px;
+    background: white;
+}
+
+.imgPageResto img {
+    width: 100%;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.headerMenu h3 {
+    font-family: "Shrikhand";
+    margin: 0;
+}
+
+.decorationTitre {
+    width: 40px;
+    height: 3px;
+    background: var(--colorTertiaire);
+}
+
+.headerMenu .iconFavori {
+    padding: 0 20px;
+}
+
+.entrées, .plats {
+    margin-bottom: 40px;
+}
+.cardPlat {
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px 0 10px 10px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.404);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockInfoCard {
+    flex-grow: 2;  
+}
+
+.titreMenu {
+    margin: 10px 0;
+}
+
+.namePlat {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.bodyCardMenu {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.ingrédients, .prix {
+    font-size: 14px;
+}
+
+.validationChoix {
+    width: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--colorTertiaire);
+    border-radius: 0 15px 15px 0;
+    display: none;
+}
+
+.validationChoix i {
+    color: white;
+    font-size: 18px;
+}
+
+.cardPlat:hover .validationChoix {
+    display:inline-flex;
+    cursor: pointer;
+}
+
+.buttonSubmit {
+    width: 200px;
+}
+
+.buttonCommander {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttonCommander input {
+    margin: 15px 0;
+}
