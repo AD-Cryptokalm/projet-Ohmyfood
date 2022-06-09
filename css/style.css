@@ -16,7 +16,7 @@
 
 
 body {
-  width: 100%;
+  
   margin: 0;
   box-sizing: border-box;
 }
@@ -151,6 +151,8 @@ Form {
   background: rgb(247, 234, 247);
 }
 
+
+
 /* Block restaurants  */
 .blockRestaurants {
   margin: 0;
@@ -185,6 +187,7 @@ Form {
  
 }
 
+
 .titreCard {
   font-weight: bold;
   margin-bottom: 5px;
@@ -201,6 +204,11 @@ Form {
   position: relative;
   left: 29px;
   background: white;
+  width: 25px;
+}
+
+.prix {
+  margin-left: 20px;
 }
 
 .backgroundIcon {
