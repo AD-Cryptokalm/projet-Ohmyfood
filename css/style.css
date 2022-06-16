@@ -41,9 +41,9 @@ header {
 .loaderBlock {
   margin: 0 auto;
   width: 100vw;
-  height: 100vh;
+  top: 350px;
   position: absolute;
-  animation:fadeOut 4s;
+  animation:fadeOut 3s;
   animation-fill-mode: both, forwards, none;
   
 }
@@ -68,7 +68,7 @@ header {
   height: 40px;
   border: solid 5px transparent;
   border-top-color: var(--colorPrimaire);
-  animation:rotate 1s 4;
+  animation:rotate 1s 3;
 }
 
 @keyframes rotate {
@@ -143,6 +143,11 @@ Form {
   cursor: pointer;
 }
 
+.buttonSubmit:hover input {
+  background: linear-gradient(#fa8ada, #9f6adf);
+  box-shadow: 2px 2px 10px var(--color4);
+}
+
 #iconLocation {
   position: absolute;
   top: 75px;
@@ -193,7 +198,8 @@ Form {
   color: var(--color4); 
 }
 
-.backgroundEtape:hover i {
+.etapesFonctionnement:hover i {
+  
   color: var(--colorPrimaire);
 }
 
@@ -223,14 +229,16 @@ Form {
 }
 
 .cardRestaurants {
-  
   width: 100%;
   height: 260px;
   margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.258);
   background: white;
+  
 }
+
+
 
 .imgCard img {
   width: 100%;
@@ -262,10 +270,10 @@ Form {
 .iconCard {
   font-size: 25px;
   cursor: pointer;
-  position: relative;
-  left: 29px;
+  
   background: white;
   width: 25px;
+  z-index: 0;
 }
 
 .prix {
@@ -279,15 +287,26 @@ Form {
   background-image: linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   cursor: pointer;
-  
+  position: absolute;
+  transition: 2s;
+  height: 0;
+}
+
+.iconHeart {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
 .iconCard:hover {
   cursor: pointer;
 }
 
-.iconCard:active {
-  display: none;
+.iconHeart:active .backgroundIcon {
+  top: 0;
+  height: 25px;
+  transition: 2s;
 }
 
 /* Footer  */

@@ -27,10 +27,10 @@
     <main class="blockMenu">
         <div class="headerMenu">
             <h2 class="nomRestaurant">À la française</h2>
-            <div class="iconFavori">
+            <div class="iconHeart">
                 <i class="fa-regular fa-heart iconCard"></i>
-                <i class="fa-solid fa-heart backgroundIcon"></i>
-            </div>       
+                <i class="fa-solid fa-heart backgroundIcon"></i>   
+            </div>     
         </div>
         <!-- blockMenu  -->
         <div class="menuRestaurant">
@@ -38,7 +38,7 @@
                 <h3 class="titreSousMenu">ENTRÉES</h3>
                 <div class="decorationTitre"></div>
                 <!-- blockCardPlats  -->
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimeEntrees">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Tartare de poulpe acidulé</h4>
                         <p class="ingredients">Aux zests d'orange</p>
@@ -48,8 +48,8 @@
                         <i class="fa-solid fa-circle-check"></i>
                     </div>    
                 </div>
-                <div class="cardPlats">
-                    <div class="infoPlat">
+                <div class="cardPlats scaleCardTimeEntrees">
+                    <div class="infoPlat ">
                         <h4 class="nomPlat">Velouté de légumes d'antan</h4>
                         <p class="ingredients">Carotte, panais, topinambour</p>
                     </div>
@@ -58,7 +58,7 @@
                         <i class="fa-solid fa-circle-check"></i>
                     </div>    
                 </div>
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimeEntrees">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Soupe à l'oignon</h4>
                         <p class="ingredients">Revisité</p>
@@ -73,7 +73,7 @@
                 <h3 class="titreSousMenu">PLATS</h3>
                 <div class="decorationTitre"></div>
                 <!-- blockCardPlats  -->
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimePlats">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Coquilles Saint-Jacques</h4>
                         <p class="ingredients">Accompagné d'une purée de panais</p>
@@ -83,7 +83,7 @@
                         <i class="fa-solid fa-circle-check"></i>
                     </div>    
                 </div>
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimePlats">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Magret de canard</h4>
                         <p class="ingredients">Et parmentier de pommes de terres</p>
@@ -93,7 +93,7 @@
                         <i class="fa-solid fa-circle-check"></i>
                     </div>    
                 </div>
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimePlats">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Pigeonneau de l'Ille-et-Vilaine</h4>
                         <p class="ingredients">Sur son lit de gnocchis aux légumes</p>
@@ -108,7 +108,7 @@
                 <h3 class="titreSousMenu">DESSERTS</h3>
                 <div class="decorationTitre"></div>
                 <!-- blockCardPlats  -->
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimeDesserts">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Pétales de violettes glacés</h4>
                         <p class="ingredients">Et purée de noisettes</p>
@@ -118,7 +118,7 @@
                         <i class="fa-solid fa-circle-check"></i>
                     </div>    
                 </div>
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimeDesserts">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Fondant au chocolat</h4>
                         <p class="ingredients">Revisité</p>
@@ -128,7 +128,7 @@
                         <i class="fa-solid fa-circle-check"></i>
                     </div>    
                 </div>
-                <div class="cardPlats">
+                <div class="cardPlats scaleCardTimeDesserts">
                     <div class="infoPlat">
                         <h4 class="nomPlat">Millefeuille croustillant</h4>
                         <p class="ingredients">Myrtilles et pâte d'amande</p>
@@ -141,7 +141,7 @@
             </div>
         </div>       
         <div class="buttonCommander">
-            <div class="buttonSubmit"><input type="submit" value="Commander"></div>
+            <div class="buttonSubmit"><input type="button" value="Commander"></div>
         </div>
     </main>
     <!-- footer  -->
@@ -160,6 +160,6 @@
             </a>
         </div>
         <div class="liensColor"><a href="#" class="liensColor">Mentions Légales</a></div>
-        <div  class="liensColor"><a href="#" class="liensColor">Contact</a></div>
+        <div  class="liensColor"><a href="mailto:contact@ohmyfood.com" class="liensColor">Contact</a></div>
     </footer>
 </body>
