@@ -1,0 +1,78 @@
+@media only screen and (min-width: 768px) {
+
+    .body {
+        width: 100%;
+    }
+
+    #iconLocation {
+        left: 40%;
+    }
+
+    
+
+
+    .blockCardRestaurant  {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .flexEnd {
+        justify-content: flex-end;
+        margin-right: 0;
+    }
+
+    .cardRestaurants {
+        width: 47%;
+    }
+
+    .blockEtapes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nameEtape {
+        padding-right: 5px;
+    }
+
+    .etapesFonctionnement {
+        width: 30%;
+    }
+
+    .menuRestaurant {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .sousMenu {
+        width: 46%;
+    }
+
+    .itemDesserts {
+        flex: 1;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .menuRestaurant {
+        justify-content: space-between;
+    }
+
+    .sousMenu {
+        width: 30%;
+    }
+
+    .loader {
+        left: 48%;
+    }
+}
