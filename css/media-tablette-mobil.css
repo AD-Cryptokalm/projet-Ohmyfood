@@ -8,9 +8,6 @@
         left: 40%;
     }
 
-    
-
-
     .blockCardRestaurant  {
         display: flex;
         flex-wrap: wrap;
@@ -56,11 +53,16 @@
 
     footer {
         display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
+        justify-content:space-evenly;
     }
-    
+
+    footer h3 {
+        margin: 0;
+    }
+
+    .liensFooter {
+        padding-top: 5px;
+    }    
 }
 
 @media only screen and (min-width: 992px) {
@@ -74,5 +76,19 @@
 
     .loader {
         left: 48%;
+    }
+
+    .blockCardRestaurant {
+        justify-content: space-between;
+    }
+
+    .cardRestaurants {
+        width: 24%;
+    }
+
+    .ellipsis, .titreCard {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 }

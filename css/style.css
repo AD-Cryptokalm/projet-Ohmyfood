@@ -32,11 +32,7 @@ header {
   align-items: center;
 }
 
-/* Header */
-.logo img {
-  margin: 20px 0 5px 0;
-  width: 160px;
-}
+/* Loader  */
 
 .loaderBlock {
   margin: 0 auto;
@@ -44,8 +40,7 @@ header {
   top: 350px;
   position: absolute;
   animation:fadeOut 3s;
-  animation-fill-mode: both, forwards, none;
-  
+  animation-fill-mode: both, forwards, none; 
 }
 
 .loader {
@@ -77,8 +72,7 @@ header {
   }
   100% {
     transform: rotate(360deg);
-  }
-  
+  } 
 }
 
 @keyframes fadeOut {
@@ -95,7 +89,11 @@ header {
   }
 }
 
-
+/* Header */
+.logo img {
+  margin: 20px 0 5px 0;
+  width: 160px;
+}
 
 /* Barre de recherche */
 .shearchBarre, input {
@@ -129,6 +127,8 @@ Form {
  font-size: 18px;
  color: var(--color4); 
 }
+
+/* Bouton  */
 
 .buttonSubmit input {
   border-radius: 25px;
@@ -218,9 +218,8 @@ Form {
   background: rgb(247, 234, 247);
 }
 
-
-
 /* Block restaurants  */
+
 .blockRestaurants {
   margin: 0;
   height: auto;
@@ -236,8 +235,9 @@ Form {
   box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.258);
   background: white;
   position: relative;
-  
 }
+
+
 .imgCard img {
   width: 100%;
   height: 180px; 
@@ -253,6 +253,15 @@ Form {
   padding-top: 10px;
  
 }
+
+/* Ellipsis carte plat  */
+
+.infoPlat, .nomPlat {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* Fin ellipsis  */
 
 
 .titreCard {
@@ -277,6 +286,8 @@ Form {
 .prix {
   margin-left: 20px;
 }
+
+/* Icon coeur gardian  */
 
 .backgroundIcon {
   font-size: 25px;
@@ -305,6 +316,20 @@ Form {
   top: 0;
   height: 25px;
   transition: 2s;
+}
+
+/* Nouveau  */
+
+.nouveau {
+  background-color: rgb(167, 243, 248);
+  color: rgb(17, 168, 85);
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 68px;
+  position: absolute;
+  top: 10px;
+  right: 20px
 }
 
 /* Footer  */
@@ -337,17 +362,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.nouveau {
-  background-color: rgb(167, 243, 248);
-  color: rgb(17, 168, 85);
-  padding: 12px;
-  font-weight: bold;
-  border-radius: 3px;
-  width: 68px;
-  position: absolute;
-  top: 10px;
-  right: 20px
-}
+
 
 /*# sourceMappingURL=style.css.map */
 

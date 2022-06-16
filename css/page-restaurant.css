@@ -72,6 +72,8 @@
     transition: 2s;
 }
 
+/* Animation scale time  */
+
 .scaleCardTimeEntrees {
     animation: cardScale 3s ;
 }
@@ -93,16 +95,12 @@
     }
 }
 
-
-
-
-
+/* Cartes menu  */
 .sousMenu {
     max-width: 100%;
     background: #fff;
     padding: 0 15px;
-    margin-bottom: 40px;
-   
+    margin-bottom: 40px;  
 }
 
 .infoPlat, .nomPlat {
@@ -111,12 +109,12 @@
     overflow: hidden;
 }
 
-
 .ingredients {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     margin-top: 5px;
+    font-size: 15px;
 }
 
 .infoPlat {
@@ -127,9 +125,7 @@
     font-size: 18px;
 }
 
-.ingredients {
-    font-size: 15px;
-}
+/* Confirmation choix  */
 
 .confirmationChoix {
     background: var(--colorTertiaire);
