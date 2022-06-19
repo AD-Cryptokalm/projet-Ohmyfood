@@ -8,6 +8,34 @@
         left: 40%;
     }
 
+    footer {
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+    footer h3 {
+        margin: 0;
+    }
+
+    .liensFooter {
+        padding-top: 5px;
+    }  
+
+/* page Accueil  */
+
+    .blockEtapes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nameEtape {
+        padding-right: 5px;
+    }
+
+    .etapesFonctionnement {
+        width: 30%;
+    }
+
     .blockCardRestaurant  {
         display: flex;
         flex-wrap: wrap;
@@ -24,19 +52,8 @@
         width: 47%;
     }
 
-    .blockEtapes {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .nameEtape {
-        padding-right: 5px;
-    }
-
-    .etapesFonctionnement {
-        width: 30%;
-    }
-
+    /* Page restaurants  */
+    
     .menuRestaurant {
         display: flex;
         flex-wrap: wrap;
@@ -51,18 +68,7 @@
         flex: 1;
     }
 
-    footer {
-        display: flex;
-        justify-content:space-evenly;
-    }
-
-    footer h3 {
-        margin: 0;
-    }
-
-    .liensFooter {
-        padding-top: 5px;
-    }    
+      
 }
 
 @media only screen and (min-width: 992px) {
@@ -91,4 +97,6 @@
         text-overflow: ellipsis;
         overflow: hidden;
     }
+
+    
 }

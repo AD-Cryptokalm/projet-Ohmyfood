@@ -283,9 +283,7 @@ Form {
   z-index: 0;
 }
 
-.prix {
-  margin-left: 20px;
-}
+
 
 /* Icon coeur gardian  */
 
@@ -297,7 +295,6 @@ Form {
   -webkit-background-clip: text;
   cursor: pointer;
   position: absolute;
-  transition: 2s;
   height: 0;
 }
 
@@ -313,7 +310,6 @@ Form {
 }
 
 .iconHeart:active .backgroundIcon {
-  top: 0;
   height: 25px;
   transition: 2s;
 }
